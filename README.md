@@ -6,7 +6,10 @@ Clinic.js Cheat Sheet with the most needed stuff..
 <br><br>
 
 
-
+## Install
+```bash
+npm i -g clinic autocannon
+```
 
 
 ## Bubbleprof
