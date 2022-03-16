@@ -14,7 +14,7 @@ Clinic.js Cheat Sheet with the most needed stuff..
 - https://clinicjs.org/documentation/bubbleprof/
 
 ```bash
-npm_lifecycle_event=start-dev clinic bubbleprof --on-port 'autocannon -c 5 -a 500 localhost:1337' -- node server.js
+npm_lifecycle_event=start-dev clinic bubbleprof --on-port 'autocannon -c 5 -a 500 localhost:$PORT' -- node server.js
 ```
 
 
@@ -41,7 +41,7 @@ _______________________________________________________
 - https://clinicjs.org/documentation/doctor/
 
 ```bash
-npm_lifecycle_event=start-dev clinic doctor --on-port 'autocannon -c 5 -a 500 localhost:1337' -- node server.js
+npm_lifecycle_event=start-dev clinic doctor --on-port 'autocannon -c 5 -a 500 localhost:$PORT' -- node server.js
 ```
 
 
@@ -77,6 +77,6 @@ _______________________________________________________
 - https://clinicjs.org/documentation/flame/
 
 ```bash
-npm_lifecycle_event=start-dev clinic flame --on-port 'autocannon -c 5 -a 500 localhost:1337' -- node server.js
+npm_lifecycle_event=start-dev clinic flame --on-port 'autocannon -c 5 -a 500 localhost:$PORT' -- node server.js
 ```
 
